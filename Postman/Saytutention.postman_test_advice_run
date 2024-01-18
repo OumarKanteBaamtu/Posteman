@@ -1,0 +1,198 @@
+{
+	"id": "405f3841-e58c-4cbf-be1d-6725b0a4368c",
+	"name": "Saytutention",
+	"timestamp": "2023-12-27T13:32:19.881Z",
+	"collection_id": "31562857-716b5192-023b-4648-9882-6b49f4527936",
+	"folder_id": "31562857-243390cd-33e4-44f4-8cbc-0f2407240e6f",
+	"environment_id": "31562857-7107c7c6-7383-468d-a0c0-90c1fb53f349",
+	"totalPass": 0,
+	"delay": "300",
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-12-27T13:32:11.001Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "a424f3c5-46c0-45cc-be7e-86a22ee43a02",
+			"name": "Post advice-ressource",
+			"url": "https://backend.saytutension.baamtuservices.com/api/advice",
+			"time": 809,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				809
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "bbc74f87-5da2-41c9-9717-49151cab6ba6",
+			"name": "Get advice-ressource count 0",
+			"url": "https://backend.saytutension.baamtuservices.com/api/advice/count",
+			"time": 522,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				522
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "0fdd30f9-d7a2-42fa-b64c-a6b6968f876b",
+			"name": "Get advice-ressource (id)",
+			"url": "https://backend.saytutension.baamtuservices.com/api/advice/78441",
+			"time": 517,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				517
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "6e6414ce-41c1-4ea7-82ee-c0d313e15da6",
+			"name": "Path advice-ressource (id)",
+			"url": "https://backend.saytutension.baamtuservices.com/api/advice/78441",
+			"time": 510,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				510
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "afc37319-6a5e-4879-93f1-04686add1a05",
+			"name": "Get advice-ressource count 1",
+			"url": "https://backend.saytutension.baamtuservices.com/api/advice/count",
+			"time": 519,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				519
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "75d52b82-3e5f-43e6-88aa-7ff7455f8022",
+			"name": "Delete advice-ressource (id)",
+			"url": "https://backend.saytutension.baamtuservices.com/api/advice/78441",
+			"time": 516,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				516
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "4c7d6e75-2d5a-4904-8383-428b317cda73",
+			"name": "Get advice-ressource count 2",
+			"url": "https://backend.saytutension.baamtuservices.com/api/advice/count",
+			"time": 517,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				517
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "4b05345a-6cd0-4c6f-80ce-b0e785c0bc11",
+			"name": "get advice-ressource",
+			"url": "https://backend.saytutension.baamtuservices.com/api/advice?page=0&size=30&search=false ",
+			"time": 530,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				530
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 4440,
+	"collection": {
+		"requests": [
+			{
+				"id": "a424f3c5-46c0-45cc-be7e-86a22ee43a02",
+				"method": "POST"
+			},
+			{
+				"id": "bbc74f87-5da2-41c9-9717-49151cab6ba6",
+				"method": "GET"
+			},
+			{
+				"id": "0fdd30f9-d7a2-42fa-b64c-a6b6968f876b",
+				"method": "GET"
+			},
+			{
+				"id": "6e6414ce-41c1-4ea7-82ee-c0d313e15da6",
+				"method": "PATCH"
+			},
+			{
+				"id": "afc37319-6a5e-4879-93f1-04686add1a05",
+				"method": "GET"
+			},
+			{
+				"id": "75d52b82-3e5f-43e6-88aa-7ff7455f8022",
+				"method": "DELETE"
+			},
+			{
+				"id": "4c7d6e75-2d5a-4904-8383-428b317cda73",
+				"method": "GET"
+			},
+			{
+				"id": "4b05345a-6cd0-4c6f-80ce-b0e785c0bc11",
+				"method": "GET"
+			}
+		]
+	}
+}
